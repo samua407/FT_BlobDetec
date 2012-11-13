@@ -9,8 +9,13 @@
 
 
 import codeanticode.gsvideo.*;
+import arb.soundcipher.*;
 
+//set up video stream
 GSCapture video;
+
+//set up note
+SoundCipher sc = new SoundCipher(this);
 
 void setup() {
   size(640, 480); // Change size to 320 x 240 if too slow at 640 x 480
