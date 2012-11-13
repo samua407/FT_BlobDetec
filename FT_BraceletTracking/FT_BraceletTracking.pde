@@ -51,5 +51,10 @@ void draw() {
     // Draw a large, yellow circle at the brightest pixel
     fill(255, 204, 0, 128);
     ellipse(brightestX, brightestY, 200, 200);
+    
+    mouseX = brightestX;
+    mouseY = brightestY;
+    
+    ledSpeed(mouseX, mouseY, pmouseX, pmouseY);
   }
 }
