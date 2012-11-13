@@ -1,11 +1,12 @@
-/**
- * Brightness Tracking 
- * by Golan Levin. 
- *
- * GSVideo version by Andres Colubri.  
- * 
- * Tracks the brightest pixel in a live video signal. 
- */
+/////////////////////////////
+//
+//Crowd Control Bracelet Tracking v3
+//Alex Samuel, Dan Selden, Ross Leonardy
+//
+//adapted from Brightness Tracking by Golan Levin
+//and http://processing.org/learning/topics/pattern.html
+//
+/////////////////////////////
 
 
 import codeanticode.gsvideo.*;
